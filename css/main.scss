@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700"); //Import font into css
+
+*{
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100vh;
+    display: flex;
+}
+.Home{
+    background-color: #E5E5E5;
+    .portrait {
+        position: absolute;
+        width: 25%;
+        top: 20%;
+        right: 10%;
+    }
+    .Home_make_name{
+        position: absolute;
+        left: 18%;
+        top:45%;
+        h1{
+            font-size: 2.5em;
+            color: #3f3c50;
+            animation:  textanimation 1s ease-in-out;
+            font-weight: bold;
+            transform-origin: left;
+    
+            &::before {
+                content: " ";
+                width: 90%;
+                border-bottom: 7px solid #FFC400;
+                display: block;
+                animation: block-d 1s ease-in-out;
+                transform-origin: right;
+            }
+    
+        }
+    }
+    .Title_under_name{
+        h1 {
+            position: absolute;
+            left: 18%;
+            top: 50%;
+            font-size: 0.9em;
+            color: #3f3c50;
+            animation:  textanimation 4s ease-in-out;
+        }
+    }
+    .Title_under2_name{
+        h1 {
+            position: absolute;
+            left: 18%;
+            top: 52%;
+            font-size: 0.9em;
+            color: #3f3c50;
+            animation:  textanimation 4s ease-in-out;
+        }
+    }
+}
+.AboutMe{
+    background-color: #E5E5E1;
+    .doordie{
+        position: absolute;
+        width: 30%;
+        top: 25%;
+        left: 10%;
+    }
+}
+.Contact{
+    background-color: #E5E5EE;
+}
+.HelloTitle, .AboutMeTitle, .ContactTitle{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    font-size: 3em;
+    font-weight: bold;
+    color: #3f3c50;
+}
+
