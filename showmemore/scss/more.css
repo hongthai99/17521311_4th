@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+* {
+  font-family: 'Montserrat';
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.moresection {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.s1 {
+  background-color: #DAB7C7;
+}
+/*# sourceMappingURL=more.css.map */

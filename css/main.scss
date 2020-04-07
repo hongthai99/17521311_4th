@@ -11,40 +11,40 @@ section{
     display: flex;
 }
 .Home{
-    background-color: #E5E5E5;
+    background-color: #DAB7C7;
     .portrait {
         position: absolute;
         width: 25%;
-        top: 20%;
+        top: 22%;
         right: 10%;
+        animation: portrait 1.5s ease-in-out;
     }
     .Home_make_name{
         position: absolute;
         left: 18%;
         top:45%;
         h1{
-            font-size: 2.5em;
+            font-size: 4em;
             color: #3f3c50;
-            animation:  textanimation 1s ease-in-out;
+            animation:  textanimation 2s ease-in-out;
             font-weight: bold;
             transform-origin: left;
-    
-            &::before {
+            /*&::before {
                 content: " ";
                 width: 90%;
                 border-bottom: 7px solid #FFC400;
                 display: block;
                 animation: block-d 1s ease-in-out;
                 transform-origin: right;
-            }
+            }*/
     
         }
     }
     .Title_under_name{
         h1 {
             position: absolute;
-            left: 18%;
-            top: 50%;
+            left: 18.5%;
+            top: 54%;
             font-size: 0.9em;
             color: #3f3c50;
             animation:  textanimation 4s ease-in-out;
@@ -53,25 +53,162 @@ section{
     .Title_under2_name{
         h1 {
             position: absolute;
-            left: 18%;
-            top: 52%;
+            left: 18.5%;
+            top: 56%;
             font-size: 0.9em;
             color: #3f3c50;
             animation:  textanimation 4s ease-in-out;
         }
     }
-}
-.AboutMe{
-    background-color: #E5E5E1;
-    .doordie{
+    .item1{
+        width: 15%;
+        margin-top: 30em;
+        margin-left: -5rem;
+    }
+    .item2{
         position: absolute;
-        width: 30%;
-        top: 25%;
-        left: 10%;
+        width: 5%;
+        bottom: -1em;
+        margin-left: 20%;
     }
 }
+.AboutMe{
+    background-color: #fff;
+    .doordie{
+        position: absolute;
+        width: 35%;
+        top: 15%;
+        left: 55%;
+    }
+    .item3{
+        position: absolute;
+        width: 8%;
+        top: -2%;
+        left: 85%;
+    }
+    .item4{
+        position: absolute;
+        width: 8%;
+        left: 90.7%;
+        top: -1%;
+    }
+    h1{
+        position: absolute;
+        font-size: 4em;
+        color: #3f3c50;
+        top: 30%;
+        left: 18%;
+    }
+    h1:hover{
+        color: #FFC400;
+    }
+    h2{
+        position: absolute;
+        font-size: 1.5em;
+        top: 50%;
+        left: 18%;
+        color: #3f3c50;
+    }
+    h2:hover{
+        color: #FFC400;
+    }
+    .ctn-ShowMemore {
+        
+        position: absolute;
+        font-size: 1em;
+        color: #DAB7C7;
+        font-weight: bold;
+        text-decoration: none;
+        top: 58%;
+        left: 18%;
+        padding: 15px 25px;
+        background-color: #3f3c50;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        text-decoration: None;
+    }
+    .ctn-ShowMemore:hover {
+        background-color: #FFC400;
+        color: #3f3c50;
+    }
+    .borders{
+        content: " ";
+        position: absolute;
+        left: 23%;
+        top: 45%;
+        width: 8%;
+        border-bottom: 5px solid #FFC400;
+        display: block;
+    }
+    .borderletter{
+        content: " ";
+        position: absolute;
+        left: 18%;
+        top: 43%;
+        width: 8%;
+        border-bottom: 5px solid #FFC400;
+        display: block;
+    }
+    
+}
+
 .Contact{
     background-color: #E5E5EE;
+    .contact-title{
+        h1{
+            position: absolute;
+            font-size: 4em;
+            //font-weight: bold;
+            color: #3f3c50;
+            top: 30%;
+            left: 18%;
+        }
+        .mailne{
+            position: absolute;
+            font-size: 1.5em;
+            font-weight: bold;
+            text-decoration: none;
+            top: 50%;
+            left: 18%;
+            color: #3f3c50;
+            
+        }
+        .mailne:hover{
+            color: #FFC400;
+        }
+        .behance{
+            position: absolute;
+            font-size: 1.5em;
+            font-weight: bold;
+            text-decoration: none;
+            top: 54%;
+            left: 18%;
+            color: #3f3c50;
+            
+        }
+        .behance:hover{
+            color: #FFC400;
+        }
+    }
+    .borders2{
+        content: " ";
+        position: absolute;
+        left: 23%;
+        top: 45%;
+        width: 8%;
+        border-bottom: 5px solid #FFC400;
+        display: block;
+    }
+    .borderletter2{
+        content: " ";
+        position: absolute;
+        left: 18%;
+        top: 43%;
+        width: 8%;
+        border-bottom: 5px solid #FFC400;
+        display: block;
+    }
 }
 .HelloTitle, .AboutMeTitle, .ContactTitle{
     position: absolute;
@@ -81,4 +218,39 @@ section{
     font-weight: bold;
     color: #3f3c50;
 }
+//.bg-change{
+//    background-color: #FFC400;
+//}
 
+@keyframes textanimation {
+
+    0% { opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1); }
+    4.1% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -125.912, 0, 0, 1); }
+    8.11% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -31.647, 0, 0, 1); }
+    12.11% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.53, 0, 0, 1); }
+    16.12% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 13.007, 0, 0, 1); }
+    27.23% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.352, 0, 0, 1); }
+    38.34% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.311, 0, 0, 1); }
+    60.56% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.007, 0, 0, 1); }
+    82.78% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    100% { opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+  
+}
+/*@keyframes block-d {
+    from{
+        transform: scaleX(0);
+
+    }
+    to{
+        transform: scaleX(1);
+    }
+}*/
+
+@keyframes portrait{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
