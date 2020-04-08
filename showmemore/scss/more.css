@@ -9,12 +9,236 @@
 
 .moresection {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
 }
 
-.s1 {
-  background-color: #DAB7C7;
+.skill {
+  color: #DAB7C7;
+}
+
+.skill .olaaaa {
+  position: absolute;
+  width: 45%;
+  top: 8%;
+  left: 50%;
+}
+
+.skill .header_title {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  font-size: 3em;
+  font-weight: bold;
+  color: #3f3c50;
+}
+
+.skill .header_title a {
+  text-decoration: none;
+  color: #3f3c50;
+}
+
+.skill ul {
+  position: absolute;
+  top: 9%;
+  left: 10%;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.skill ul li {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.skill .skill-set-name-ill {
+  font-size: 1.8em;
+}
+
+.skill .skill-set-name-ill::before {
+  content: " ";
+  width: 16em;
+  border-bottom: 7px solid #FFC400;
+  display: block;
+  -webkit-animation: ill 1s ease-in-out;
+          animation: ill 1s ease-in-out;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.skill .skill-set-name-ps {
+  font-size: 1.8em;
+}
+
+.skill .skill-set-name-ps::before {
+  content: " ";
+  width: 14em;
+  border-bottom: 7px solid #FFC400;
+  display: block;
+  -webkit-animation: ill 1s ease-in-out;
+          animation: ill 1s ease-in-out;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.skill .skill-set-name-xd {
+  font-size: 1.8em;
+}
+
+.skill .skill-set-name-xd::before {
+  content: " ";
+  width: 16em;
+  border-bottom: 7px solid #FFC400;
+  display: block;
+  -webkit-animation: ill 1s ease-in-out;
+          animation: ill 1s ease-in-out;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.skill .skill-set-name-htmlcss {
+  font-size: 1.8em;
+}
+
+.skill .skill-set-name-htmlcss::before {
+  content: " ";
+  width: 10em;
+  border-bottom: 7px solid #FFC400;
+  display: block;
+  -webkit-animation: ill 1s ease-in-out;
+          animation: ill 1s ease-in-out;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.skill .skill-set-name-sass {
+  font-size: 1.8em;
+}
+
+.skill .skill-set-name-sass::before {
+  content: " ";
+  width: 9em;
+  border-bottom: 7px solid #FFC400;
+  display: block;
+  -webkit-animation: ill 1s ease-in-out;
+          animation: ill 1s ease-in-out;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.skill .skill-set-name-analysis {
+  font-size: 1.8em;
+}
+
+.skill .skill-set-name-analysis::before {
+  content: " ";
+  width: 13em;
+  border-bottom: 7px solid #FFC400;
+  display: block;
+  -webkit-animation: ill 1s ease-in-out;
+          animation: ill 1s ease-in-out;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.skill .skill-set-name-js {
+  font-size: 1.8em;
+}
+
+.skill .skill-set-name-js::before {
+  content: " ";
+  width: 7em;
+  border-bottom: 7px solid #FFC400;
+  display: block;
+  -webkit-animation: ill 1s ease-in-out;
+          animation: ill 1s ease-in-out;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.skill .skill-set-name-c {
+  font-size: 1.8em;
+}
+
+.skill .skill-set-name-c::before {
+  content: " ";
+  width: 12em;
+  border-bottom: 7px solid #FFC400;
+  display: block;
+  -webkit-animation: ill 1s ease-in-out;
+          animation: ill 1s ease-in-out;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.skill .skill-set-name-sql {
+  font-size: 1.8em;
+}
+
+.skill .skill-set-name-sql::before {
+  content: " ";
+  width: 8em;
+  border-bottom: 7px solid #FFC400;
+  display: block;
+  -webkit-animation: ill 1s ease-in-out;
+          animation: ill 1s ease-in-out;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.skill .skill-set-name-another {
+  font-size: 1.8em;
+}
+
+.skill .skill-set-name-another::before {
+  content: " ";
+  width: 14em;
+  border-radius: 2em;
+  border-bottom: 7px solid #FFC400;
+  display: block;
+  -webkit-animation: ill 1s ease-in-out;
+          animation: ill 1s ease-in-out;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+@-webkit-keyframes ill {
+  from {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  to {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@keyframes ill {
+  from {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  to {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+.passion .header_title2 {
+  position: absolute;
+  left: 3%;
+  font-size: 3em;
+  font-weight: bold;
+  color: #3f3c50;
+}
+
+.passion .end {
+  position: absolute;
+  top: 150%;
+  left: 42%;
+  font-size: 2em;
+  font-weight: bold;
+  color: #3f3c50;
 }
 /*# sourceMappingURL=more.css.map */
